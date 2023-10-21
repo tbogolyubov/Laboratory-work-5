@@ -5,3 +5,6 @@
 # Инструкция по использованиюю программы:
 Программу можно открыть в средах разработки для языка С++: Visual Studio, C++ Builder, Qt Creator, Xcode, Eclipse и других. В IDE Visual Studio для работы с отладкой кода нужно открыть проект, нажать кнопку с зелёной стрелкой и надписью "Локальный отладчик Windows". Откроется консоль отладки, где программа попросит пользователя ввести фразу, которую нужно зашифровать и шаг сдвига. Затем нужно нажать клавишу "Enter", программа выведет на экран фразу в зашифрованном виде.
 # Скриншоты тестов: 
+![Alt-текст](https://github.com/tbogolyubov/Laboratory-work-5/blob/main/%D1%82%D0%B5%D1%81%D1%821.jpg)
+![Alt-текст](https://github.com/tbogolyubov/Laboratory-work-5/blob/main/%D1%82%D0%B5%D1%81%D1%822.jpg)
+![Alt-текст](https://github.com/tbogolyubov/Laboratory-work-5/blob/main/%D1%82%D0%B5%D1%81%D1%823.jpg)
