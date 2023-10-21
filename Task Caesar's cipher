@@ -1,0 +1,47 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	int n; //n - шаг
+	string letter; //letter - фраза, которую вводит пользователь
+
+	cout << "Введите фразу, кторую требуется зашифровать. Отдельные слова вводите через пробел, затем нажмите Enter: " << endl;
+	getline(cin, letter);
+	cout << "Введите шаг сдвига. Если буквы нужно сдвинуть влево, перед цифрой шага поставьте знак минус. Для запуска программы нажмите Enter: " << endl;
+	cin >> n;
+
+	if (n > 0) {
+
+		for (int i = 0; i < letter.size(); i++)
+		{
+			if (letter[i] >= 'a' && letter[i] <= 'z') {
+				letter[i] = 'a' + ((letter[i] - 'a') + n) % 26;
+			}
+
+			if (letter[i] >= 'A' && letter[i] <= 'Z') {
+				letter[i] = 'A' + ((letter[i] - 'A') + n) % 26;
+			}
+		}
+	}
+
+	else {
+
+		for (int i = 0; i < letter.size(); i++)
+		{
+			if (letter[i] >= 'a' && letter[i] <= 'z') {
+				letter[i] = 'a' + ((letter[i] - 'a') + n + 26) % 26;
+			}
+
+			if (letter[i] >= 'A' && letter[i] <= 'Z') {
+				letter[i] = 'A' + ((letter[i] - 'A') + n + 26) % 26;
+			}
+		}
+	}
+	cout << letter;
+
+	return 0;
+}
+
