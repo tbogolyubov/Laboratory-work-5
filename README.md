@@ -8,3 +8,4 @@
 ![Alt-текст](https://github.com/tbogolyubov/Laboratory-work-5/blob/main/%D1%82%D0%B5%D1%81%D1%821.1.jpg)
 ![Alt-текст](https://github.com/tbogolyubov/Laboratory-work-5/blob/main/%D1%82%D0%B5%D1%81%D1%822.1.png)
 ![Alt-текст](https://github.com/tbogolyubov/Laboratory-work-5/blob/main/%D1%82%D0%B5%D1%81%D1%823.1.jpg)
+![Alt-текст](https://github.com/tbogolyubov/Laboratory-work-5/blob/main/%D1%82%D0%B5%D1%81%D1%82%204.1.png)
